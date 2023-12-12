@@ -14,5 +14,7 @@ public class Main {
   System.out.println("****Added one more file*****");
         // Print the formatted date
         System.out.println("Today's Date: " + formattedDate);
+           Student student = new Student("Komal");
+        student.sayHello();
     }
 }
